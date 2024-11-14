@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="Test1">
+    <classes>
+      <class name="Tests.HomePage_Test"/>
+
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+    <classes>
+      <class name="Tests.WebForm_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test3">
+    <classes>
+      <class name="Tests.Checkbox_Test"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test4">
+    <classes>
+      <class name="Tests.Dropdown_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test5">
+    <classes>
+      <class name="Tests.FileUpload_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test6">
+    <classes>
+      <class name="Tests.SwitchWindow_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test3(failed)">
+    <classes>
+      <class name="Tests.Checkbox_Test">
+        <methods>
+          <include name="baseTearDown"/>
+          <include name="baseSetUp"/>
+          <include name="verifySelectionOfAlternateCheckboxes"/>
+        </methods>
+      </class> <!-- Tests.Checkbox_Test -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
