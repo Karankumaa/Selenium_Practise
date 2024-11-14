@@ -16,6 +16,10 @@ public class Checkbox_Test extends BaseTest {
         checkbox = home.goToCheckboxPage();
         System.out.println("Checkbox_Test] Web Form Page opened successfully.");
     }
+    @Test
+    public void test1() {
+    	System.out.println("Test Started");
+    }
 
     @Test(priority = 1)
     public void verifyTitle() {
@@ -36,4 +40,5 @@ public class Checkbox_Test extends BaseTest {
         boolean[] expected = {true, true}; // Adjust based on the actual selection logic
         Assert.assertEquals(actual, expected);
     }
+   
   }
