@@ -32,4 +32,10 @@
       <class name="Tests.SwitchWindow_Test"/>
     </classes>
   </test> <!-- Test -->
+    <test name="Test7">
+    <classes>
+      <class name="Tests.SampleTest"/>
+    </classes>
+  </test> <!-- Test -->
+
 </suite> <!-- Suite -->
